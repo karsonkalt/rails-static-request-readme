@@ -10,7 +10,6 @@ gem 'bootsnap'
 gem 'faker'
 gem 'sqlite3', '~>1.3.6'
 gem 'rails-controller-testing'
-gem 'puma'
 gem 'turbolinks'
 gem 'phantomjs', :require => 'phantomjs/poltergeist'
 gem 'rb-readline'
@@ -27,3 +26,5 @@ end
 group :test do
   gem 'rspec-collection_matchers'
 end
+
+gem "puma", "~> 5.2"
